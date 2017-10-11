@@ -1,0 +1,308 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Vibur" />
+*/
+
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#main {
+/*width:1000px;*/
+margin:50px auto;
+/*font-family:raleway;*/
+text-align: center;
+}
+
+span {
+color:red;
+font-family: Abel;
+}
+
+h1 {
+	font-family: Abel;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+h2 {
+background-color:#FEFFED;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px;
+font-family: Abel;
+font-size: 30px;
+}
+
+h3 {
+text-align:center;
+margin:-10px -40px;
+font-family: Abel;
+}
+
+b{
+margin:10px;
+font-family: Abel;
+font-variant: normal;
+font-size: 18px;
+}
+
+hr.style2  {
+border-top: 3px double #8c8b8b;
+}
+
+#login {
+font-size: 25px;
+width:500px;
+float:center;
+border-radius:10px;
+font-family:Abel;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px;
+margin-left: auto;
+margin-right: auto;
+background-color:#FEFFED;
+
+}
+
+input[type=text],input[type=password] {
+/* width:40%; */
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+margin-left: auto;
+margin-right: auto;
+font-family:Abel;
+font-size: 15px;
+}
+input[type=number] {
+/* width:40%; */
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:Abel;
+font-size: 15px;
+}
+input[type=submit] {
+width:40%;
+background-color:#FFBC00;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+margin-left: auto;
+margin-right: auto;
+font-family:Abel;
+font-size: 15px;
+}
+
+#submit_search {
+width:10%;
+background-color:#FFBC00;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+margin-left: auto;
+margin-right: auto;
+font-family:Abel;
+font-size: 20px;
+}
+
+#submit_modify {
+width:10%;
+background-color:#FFBC00;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+margin-left: auto;
+margin-right: auto;
+font-family:Abel;
+font-size: 20px;
+}
+#submit_send_mail_admin{
+width:10%;
+background-color:#FFBC00;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+margin-left: auto;
+margin-right: auto;
+font-family:Abel;
+font-size: 20px;
+}
+
+#profile {
+padding:40px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7;
+margin-top: 0px;
+padding-bottom: 30px;
+
+}
+
+#profilemailadmin {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7;
+margin-top: 5px;
+margin-left: 100px;
+margin-right: 100px;
+
+}
+
+#profilesearch {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#FFD480;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+}
+
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray;
+margin-top: 0px;
+
+
+}
+
+#search {
+text-align: center;
+padding:5px;
+border:dashed 1px gray
+}
+
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+
+@import "compass/css3";
+
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Patua+One|Open+Sans);
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#bodyback {
+  background:#faf7f4;
+}
+
+table {
+  border-collapse: separate;
+  background:#fff;
+  @include border-radius(5px);
+  margin:50px auto;
+  @include box-shadow(0px 0px 5px rgba(0,0,0,0.3));
+}
+
+thead {
+  @include border-radius(5px);
+}
+
+thead th {
+  font-family: 'Patua One', cursive;
+  font-size:16px;
+  font-weight:400;
+  color:#fff;
+  background-color: #646f7f;
+  text-align:left;
+  padding:20px;
+  @include background-image(linear-gradient(#646f7f, #4a5564));
+  border-top:1px solid #858d99;
+
+  &:first-child {
+   @include border-top-left-radius(5px);
+  }
+
+  &:last-child {
+    @include border-top-right-radius(5px);
+  }
+}
+
+tbody tr td {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:400;
+  color:#5f6062;
+  font-size:13px;
+  padding:20px 20px 20px 20px;
+  border-bottom:1px solid #e0e0e0;
+
+}
+
+tbody tr:nth-child(2n) {
+  background:#f0f3f5;
+}
+
+tbody tr:last-child td {
+  border-bottom:none;
+  &:first-child {
+    @include border-bottom-left-radius(5px);
+  }
+  &:last-child {
+    @include border-bottom-right-radius(5px);
+  }
+}
+
+tbody:hover > tr td {
+  @include opacity(0.5);
+
+  /* uncomment for blur effect */
+  /* color:transparent;
+  @include text-shadow(0px 0px 2px rgba(0,0,0,0.8));*/
+}
+
+tbody:hover > tr:hover td {
+  @include text-shadow(none);
+  color:#2d2d2d;
+  @include opacity(1.0);
+}
+
+img{
+     width :400px;
+     height:220px;
+}
+
+
+/*
+#input_container { position:relative; padding:0; margin:0; }
+#input { height:20px; margin:0; padding-left: 30px; }
+
+#input_img { position:absolute; bottom:8px; left:10px; width:10px; height:10px; }
+*/
